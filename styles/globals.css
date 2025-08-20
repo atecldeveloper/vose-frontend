@@ -1,0 +1,164 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.MuiButton-root {
+  font-size: 18px;
+  border-radius: 0px;
+}
+
+
+.embla {
+  position: relative;
+  /* padding: 20px; */
+  /* max-width: 670px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__viewport.is-draggable {
+  cursor: move;
+  cursor: grab;
+}
+
+.embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: -10px;
+}
+
+.embla__slide {
+  position: relative;
+  min-width: 33%;
+  padding-left: 10px;
+}
+
+.embla__slide__inner {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  padding: 25px 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #847361;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .embla__slide {
+    position: relative;
+    min-width: 100%;
+    padding-left: 10px;
+  }
+
+  .MuiButton-root {
+    font-size: 14px;
+    border-radius: 0px;
+  }
+}
+
+.embla__slide__img {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: none;
+  transform: translate(-50%, -50%);
+}
+
+.embla__button {
+  outline: 0;
+  cursor: pointer;
+  background-color: transparent;
+  touch-action: manipulation;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  fill: #1bcacd;
+  padding: 0;
+}
+
+.embla__button:disabled {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.embla__button__svg {
+  width: 100%;
+  height: 100%;
+}
+
+.embla__button--prev {
+  left: 0px;
+}
+
+.embla__button--next {
+  right: 0px;
+}
+
+/* Product Gallery */
+.image-gallery-image {
+  height: 70vh !important;
+}
+
+.image-gallery-thumbnails {
+  display: flex !important;
+  align-items: center;
+}
+
+.image-gallery-thumbnails-container {
+  background-color: #e6e6e6;
+}
+
+.image-gallery-thumbnail {
+  width: 50px !important;
+}
+
+.image-gallery-thumbnail:hover {
+  border: 2px solid #847361 !important
+}
+
+.image-gallery-thumbnail.active {
+  border: 2px solid #847361 !important
+}
+
+.MuiOutlinedInput-input.Mui-disabled {
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .image-gallery-image {
+    height: 40vh !important;
+  }
+
+}

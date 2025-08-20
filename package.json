@@ -1,0 +1,49 @@
+{
+  "name": "vose-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set PORT=3000 && next dev",
+    "build": "next build",
+    "start": "PORT=3000 next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.90",
+    "@mui/material": "^5.8.5",
+    "@mui/styles": "^5.8.4",
+    "@mui/x-date-pickers": "^5.0.0-beta.1",
+    "@tinymce/tinymce-react": "^4.1.0",
+    "axios": "^0.27.2",
+    "clsx": "^1.1.1",
+    "date-fns": "^2.28.0",
+    "embla-carousel-react": "^6.2.0",
+    "google-maps-react": "^2.0.6",
+    "moment": "^2.29.4",
+    "next": "^12.1.6",
+    "next-intl": "^2.7.4",
+    "next-qrcode": "^2.1.0",
+    "react": "18.2.0",
+    "react-data-table-component": "^7.5.2",
+    "react-dom": "18.2.0",
+    "react-dropzone": "14.0.0",
+    "react-html-parser": "^2.0.2",
+    "react-image-gallery": "^1.2.8",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-month-picker": "^2.2.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-html-parser": "^2.0.2",
+    "@types/react-image-gallery": "^1.0.5",
+    "typescript": "^4.7.4"
+  }
+}

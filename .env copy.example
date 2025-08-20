@@ -1,0 +1,4 @@
+NEXT_PUBLIC_API_URL = https://api.vose.me
+NEXT_PUBLIC_WEBSITE_URL = https://www.vose.me
+NEXT_PUBLIC_GOOGLE_KEYS=somegoogleprivatekeys
+NEXT_PUBLIC_MANTAINANCE=true
