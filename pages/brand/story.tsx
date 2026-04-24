@@ -65,8 +65,10 @@ const OurStory = () => {
              {t('BS_SC_1_DES_1')}
             </Typography>
           </Grid>
-          <Grid item md={12} lg={5}>
-            <img width={'100%'} src={"/assets/brand/shilla-photo.jpg"} />
+          <Grid item md={12} lg={5} sx={{
+            marginTop: 20
+          }}> 
+            <img width={'100%'} src={"/assets/brand/shilla-p.jpeg"} />
           </Grid>
         </Grid>
         <Typography
@@ -79,12 +81,9 @@ const OurStory = () => {
         >
           {t('BS_SC_1_DES_2')}
         </Typography>
-        <Grid container alignItems={"flex-start"} spacing={6} sx={{mt: 5}}>
+        {/* <Grid container alignItems={"flex-start"} spacing={6} sx={{mt: 5}}>
           <Grid item md={12} lg={5} sx={{position: 'relative'}}>
             <img width={'100%'} src={"/assets/brand/chris-photo.png"} />
-            {/*<Stack alignItems="flex-start" sx={{ position: "absolute", bottom: 0, right: 0 }}>*/}
-            {/*  <img width={'240px'} src="/assets/brand/4-logo.png"/>*/}
-            {/*</Stack>*/}
           </Grid>
           <Grid item md={12} lg={6.5}>
           < Stack alignItems="flex-start" sx={{ position: "relative", ml: {md: 0, lg:-15} }}>
@@ -136,7 +135,7 @@ const OurStory = () => {
             </Typography>
 
           </Grid>
-        </Grid>
+        </Grid> */}
         <Typography
             sx={{
               mt: 2,

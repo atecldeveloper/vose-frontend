@@ -49,11 +49,10 @@ const Footer: React.FC = () => {
                 {t('FOOTER_ADD')}
                 </Typography>
                 <Typography sx={{ color: (t) => t.palette.brownLight.main, maxWidth: 330 }} >
-                Unit 07-11, level 7, Block 4,
-                Mines Waterfront Business Park,
-                No 3, Jalan Tasik, Mines Resort City,
-                43300 Seri kembangan,
-                Selangor.
+                90-3, Jalan Jalil 1,
+                Bumi Bukit Jalil, 
+                Lebuhraya Puchong sg besi,
+                57000 KL
                 </Typography>
               </Stack>
               <Stack direction='row' spacing={5.5}>
